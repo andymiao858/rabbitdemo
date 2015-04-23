@@ -3,11 +3,14 @@ package com.example.rabbitdemo.activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 import com.example.rabbitdemo.R;
 
 public class SystemCameraActivity extends Activity {
+	
+	private final static String TAG = "SystemCameraActivity";
 	
 	private final static int VIDEO_CODE = 1;
 
@@ -47,7 +50,17 @@ public class SystemCameraActivity extends Activity {
 	
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-		super.onActivityResult(requestCode, resultCode, data);
+		Log.d(TAG, String.valueOf(requestCode));
+		switch(requestCode){
+		case VIDEO_CODE:
+			Log.d(TAG, "video result return.");
+			
+			break;
+			
+		case IMAGE_CODE:
+			Log.d(TAG, "image result return.");
+			break;
+		}
 	}
 	
 }
