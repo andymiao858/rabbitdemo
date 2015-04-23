@@ -1,0 +1,8 @@
+Enabling Offline Mode
+Right now all the devices are not supporting offline speech input. However you can follow this discussion to enable offline speech input for supported devices.
+
+I have downloaded speech input packages on my Nexus 5 and offline speech is working fine.
+
+1. On your device go to Settings -> Language and Input. Click on icon on Google voice input.
+2. Under ALL tab select the language you want to download.
+3. Once the language package downloaded, you can see it under INSTALLED tab.

@@ -1,0 +1,5 @@
+Android comes with an inbuilt feature speech to text through which you can provide speech input to your app. With this you can add some of the cool features to your app like adding voice navigation(Helpful when you are targeting disabled people), filling a form with voice input etc.,
+
+In the background how voice input works is, the speech input will be streamed to a server, on the server voice will be converted to text and finally text will be sent back to our app.
+
+If you want to do the other way i.e converting text to speech, follow my previous tutorial Android Text to Speech
