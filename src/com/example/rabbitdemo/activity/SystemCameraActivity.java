@@ -53,12 +53,12 @@ public class SystemCameraActivity extends Activity {
 		Log.d(TAG, String.valueOf(requestCode));
 		switch(requestCode){
 		case VIDEO_CODE:
-			Log.d(TAG, "video result return.");
+			Log.d(TAG, "video result return: " + data.getDataString());
 			
 			break;
 			
 		case IMAGE_CODE:
-			Log.d(TAG, "image result return.");
+			Log.d(TAG, "image result return: " + data.getDataString());
 			break;
 		}
 	}
